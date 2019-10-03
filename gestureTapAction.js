@@ -12,7 +12,7 @@ const GestureTapAction = new Lang.Class({
 		this.parent();
 
 		this._gesture = gesture;
-		this._cursorTracker = Meta.CursorTracker.get_for_screen(global.screen);
+		this._cursorTracker = Meta.CursorTracker.get_for_display(global.display);
 
 		this._gesture.connect('gesture-begin', Lang.bind(this, function() {
 			return !this._cursorTracker.disconnect(this._cursorChangedId);
