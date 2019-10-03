@@ -1,7 +1,7 @@
 {
   "description": "Tap with two fingers followed by tap with one finger causes right-click.", 
   "name": "Right-click Gesture", 
-  "shell-version": ["3.18", "3.20", "3.22", "3.24", "3.26"], 
+  "shell-version": ["3.18", "3.20", "3.22", "3.24", "3.26", "3.30"], 
   "url": "https://github.com/andrej-gricenko/right-click-gesture", 
   "uuid": "right-click-gesture@andrej.gricenko", 
   "version": 1
