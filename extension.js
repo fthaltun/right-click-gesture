@@ -16,7 +16,7 @@ const RightClickAction = new Lang.Class({
 	_init: function() {
 		this.parent();
 
-		this._cursorTracker = Meta.CursorTracker.get_for_screen(global.screen);
+		this._cursorTracker = Meta.CursorTracker.get_for_display(global.display);
 	},
 
 	vfunc_gesture_prepare: function() {
